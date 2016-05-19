@@ -25,6 +25,7 @@
 		68D81D9E1BD8A63700A9F8FE /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D81D911BD89FD100A9F8FE /* Stack.swift */; };
 		68D81D9F1BD8ACA000A9F8FE /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D81D971BD8A05B00A9F8FE /* Task+CoreDataProperties.swift */; };
 		68D81DA01BD8ACA300A9F8FE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D81D981BD8A05B00A9F8FE /* Task.swift */; };
+		FF37A8621CEE571E00C72B55 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF37A8611CEE571E00C72B55 /* TaskListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		68D81D911BD89FD100A9F8FE /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		68D81D971BD8A05B00A9F8FE /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		68D81D981BD8A05B00A9F8FE /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FF37A8611CEE571E00C72B55 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		1A04AB001CEA670100AE72A5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FF37A8611CEE571E00C72B55 /* TaskListTableViewController.swift */,
 				68D78A571BD6C7A100509A87 /* TaskDetailTableViewController.swift */,
 			);
 			name = ViewControllers;
@@ -316,6 +319,7 @@
 				68D81D9B1BD8A05B00A9F8FE /* Task.swift in Sources */,
 				68D78A601BD6E97500509A87 /* ButtonTableViewCell.swift in Sources */,
 				68D81D921BD89FD100A9F8FE /* Model.xcdatamodeld in Sources */,
+				FF37A8621CEE571E00C72B55 /* TaskListTableViewController.swift in Sources */,
 				68D81D991BD8A05B00A9F8FE /* Task+CoreDataProperties.swift in Sources */,
 				68D78A621BD6FC6F00509A87 /* DateHelpers.swift in Sources */,
 				68D78A261BD6C26500509A87 /* AppDelegate.swift in Sources */,
